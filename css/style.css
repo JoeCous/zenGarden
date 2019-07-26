@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+body {
+    font-family: "IBM Plex Mono";
+    font-size: 12px; 
+    margin: auto;
+}
+header{
+    background: url("huntington.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+    margin-top: 30px;
+
+}
+h2 {
+    background: url("zen.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 550px;
+    font-family: "Satisfy";
+    font-size: 16px; 
+    color: white;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-family: "IBM Plex Mono";
+    text-transform: uppercase;
+    text-shadow:  4px 4px black;
+    color: white; 
+    font-size: 34px; 
+}
+
+h3 {
+    font-family: "Roboto";
+    margin: 0;
+    padding: 10px; 
+}
+.summary, .preamble, .benefits{
+    margin-bottom: 20px; 
+    
+}
+.summary, .preamble, .explanation { 
+    margin: auto; 
+    width: 85%;
+}
+
+.participation {
+    background-color: rgb(90, 145, 86); 
+    color: white;
+}
+.participation p, .benefits p, .participation h3, .benefits h3, .requirements h3 {
+    margin: auto; 
+    width: 85%;
+}
+.benefits {
+    background-color: rgb(90, 145, 86); 
+    color: white;
+    padding-bottom: 10px; 
+}
+
+
+div h3 {
+    color:black
+}
+div p {
+    margin: 0;
+    padding: 10px;
+}
+a {
+    color:black;
+    text-decoration: none;
+}
+.sidebar {
+    background-color: rgb(90, 145, 86); 
+
+}
+.design-selection {
+    background-color: rgb(180, 219, 183); 
+}
+p[role=contentinfo] {
+    color: lightgrey;
+    background-color: rgb(90, 145, 86); 
+    padding: 30px; 
+    margin-top: 20px; 
+    text-align: center;
+
+}
+p[role=contentinfo] a {
+    font-family: "Satisfy"; 
+    font-size: 30px; 
+    color: white; 
+}
+.requirements p {
+    margin: auto; 
+    width: 85%;
+}
+.requirements p:last-of-type {
+    margin: auto; 
+    width: 100%;
+}
+footer {
+    text-align: center;
+    background-color: rgb(17, 66, 33); 
+    font-size: 25px; 
+    padding: 10px; 
+}
+footer a {
+    color: white; 
+    padding: 10px; 
+}
+footer a:hover {
+    color: gray
+}
+.design-selection { 
+    column-count: 1;
+    padding: 0;
+}
+.design-selection li { 
+    text-align: center;
+    padding: 23px; 
+    border-bottom: 2px solid grey; 
+    display: inline-block;
+    width: 47%;
+    margin: -4px;
+}
+.design-selection ul {
+    padding: 0; 
+} 
+h3.select {
+    display: none;
+}
+.design-name {
+    color: black; 
+    text-decoration: none; 
+}
+.designer-name {
+    color: grey;
+    font-size: 10px; 
+}
+ul {
+    list-style-type: none; 
+}
+#design-archives {
+    background-color:  rgb(180, 219, 183);  
+}
+#design-archives ul{
+    margin: 0;
+    
+}
+#design-archives li {
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+    padding: 20px; 
+    margin: 0;
+}
+h3.archives {
+    display: none;
+}
+h3.resources {
+    display: none; 
+}
+
+#zen-resources ul {
+    column-count: 2;
+    text-align: center;
+    padding: 10px; 
+}
+#zen-resources li {
+    padding: 5px;
+}
+.design-archives a {
+    color: grey;
+}
+
+
